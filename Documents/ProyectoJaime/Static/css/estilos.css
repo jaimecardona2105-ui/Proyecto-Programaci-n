@@ -1,0 +1,62 @@
+body
+{background-color: #e9ecf0;
+}
+h1 {
+    background-color: #2b7a7a; /*Color de fondo*/
+    font-family: "Montserrat" ,sans-serif; /*Tipo de letra*/
+    font-size: 250%; /*TAMAÑO DE LETRA*/
+    color: #0A3D3D;
+    text-align: center;
+    text-transform: uppercase;
+    border:     3px solid #116464; /* Borde negro solido de 2 pixiles */
+    border-radius: 5px 5px 5px 5px;
+    padding: 15px;
+    margin: 10px;
+}
+  
+div .Imagen
+ {
+   justify-content: center;
+}
+h3{
+    font-family: "Montserrat" ,sans-serif;
+    font-size: 150%;
+    color: #0A3D3D;
+    text-align: center;
+    text-transform: uppercase;
+    border:     3px solid #0A3D3D; /* Borde negro solido de 2 pixiles */
+    border-radius: 5px 5px 5px 5px;
+    padding: 15px;
+    margin: 10px;
+}
+p:nth-child(2){
+    color: rgb(5, 5, 5);
+}
+
+.boton {
+  background-color: #3498db;
+  color: white;
+  transition: 0.3s; /* Suaviza el efecto */
+}
+
+.boton:hover {
+  background-color: #042b27;
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.2); /* Sombra para efecto 3D */
+}
+
+@media only screen and (max-width: 600px) {
+body {
+background-color: lightblue;
+}
+}
+
+p,
+label {
+  font:
+    1rem "Fira Sans",
+    sans-serif;
+}
+
+input {
+  margin: 0.4rem;
+}
